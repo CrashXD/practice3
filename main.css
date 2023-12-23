@@ -10,18 +10,25 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.first .menu {
-    display: flex;
-    gap: 35px;
+.container {
+    width: 960px;
 }
 
-.first .menu a {
-    font-size: 14px;
-    color: #000000;
-    text-decoration: none;
+.title {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
 }
 
-button {
+.text {
+    color: #8989A2;
+    font-size: 16px;
+}
+
+/* button */
+
+.button {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     color: #722ED1;
@@ -30,3 +37,111 @@ button {
     border-radius: 21px;
     border: 1px solid #722ED1;
 }
+
+.button--purple {
+    background-color: #722ED1;
+    color: #fff;
+}
+
+.button--white {
+    border-color: #fff;
+}
+
+/* end button */
+
+/* button MORE */
+
+.more {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    gap: 12px;
+    color: #722ED1;
+}
+
+.more img {
+    width: 16px;
+    height: 16px;
+}
+
+.more a {
+    color: #722ED1;
+}
+
+.more span {
+    display: flex;
+    gap: 8px;
+}
+
+/* end button MORE */
+
+/* menu */
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
+
+.menu__item {
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu__item--active {
+    color: red;
+}
+
+/* end menu */
+
+/* first block */
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E2F1FF;
+    padding-bottom: 158px;
+}
+
+.first__container {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.first__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.first__right {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.first__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first__left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.first__buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.first__more {
+    align-self: flex-start;
+}
+
+/* end first block */
