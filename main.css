@@ -8,9 +8,13 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
 }
 
 .container {
+    margin: 0 auto;
     width: 960px;
 }
 
@@ -19,6 +23,10 @@ body {
     font-size: 48px;
     font-weight: 700;
     color: #000;
+}
+
+.h2 {
+    font-size: 32px;
 }
 
 .text {
@@ -36,6 +44,7 @@ body {
     padding: 12px 24px;
     border-radius: 21px;
     border: 1px solid #722ED1;
+    cursor: pointer;
 }
 
 .button--purple {
@@ -53,16 +62,12 @@ body {
 
 .more {
     display: flex;
+    align-items: center;
     background-color: #fff;
     border-radius: 20px;
     padding: 8px 16px;
     gap: 12px;
     color: #722ED1;
-}
-
-.more img {
-    width: 16px;
-    height: 16px;
 }
 
 .more a {
@@ -98,9 +103,6 @@ body {
 /* first block */
 
 .first {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #E2F1FF;
     padding-bottom: 158px;
 }
@@ -145,3 +147,76 @@ body {
 }
 
 /* end first block */
+
+/* insigts block */
+
+.insights__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.insights__more {
+    background-color: #F7F1FF;
+    align-self: center;
+}
+
+.insights__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.insights__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* end insigts block */
+
+/* insight block */
+
+.insight {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.insight__icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6F7FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insight__icon--red {
+    background-color: #FFF1F0;
+}
+
+.insight__icon--green {
+    background-color: #F6FFED;
+}
+
+.insight__title {
+    font-weight: 700;
+    font-size: 16px;
+    color: #160637;
+}
+
+.insight__text {
+    font-size: 16px;
+    color: #8989A2;
+}
+
+/* end insight block */
