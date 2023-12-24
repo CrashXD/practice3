@@ -253,3 +253,54 @@ body {
 }
 
 /* end best stack block */
+
+/* partners block */
+
+.partners {
+    background-color: #F9F0FF;
+    padding: 158px 0;
+}
+
+.partners__container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.partners__quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.partners__text {
+    font-size: 24px;
+    color: #160637;
+    text-align: center;
+}
+
+.partners__man {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.partners__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.partners__companies {
+    border-top: 1px solid #DEC9FA;
+    padding-top: 32px;
+}
+
+.partners__logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+/* end partners block */
