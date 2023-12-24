@@ -232,6 +232,10 @@ body {
     gap: 85px;
 }
 
+.best-stack__container--right {
+    flex-direction: row-reverse;
+}
+
 .best-stack__image {
     width: 400px;
 }
